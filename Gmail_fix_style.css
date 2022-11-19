@@ -1,0 +1,317 @@
+/**
+
+Basic Gmail 2022 old style back /19.11.2022/
+
+Designed for simple display without tabs with a solid background #55688a.
+
+GitHub: https://github.com/pirios/basic-gmail-old-style-back
+
+**/
+
+body, input, textarea, select, .ar, .yW, .zA > .a4W, .TO .nU > .n0, .TO.NQ .nU > .n0, .TO.nZ .nU > .n0, .ah9 > .CJ, .n3 > .CL > .CK, .bsU, .amH > .Dj, .h0 > .adl, .ZF-zT > .ZZ, .zA > .xW, .hx .gD, h3.iw, .hx .hb, .ig .g3, .hI .g3, .iv .g3 {
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.zE {
+  border-left:3px solid #1096f2;
+  background-color: #eef0f4;
+}
+.zE .PF {
+  margin-left:-3px;
+}
+.aeH, .bkK > .nH {
+  background-color: #55688a;
+  border-radius:0;
+}
+.Dj, .aiD, .md.mj, .aeU .ma, .ma .mb, .ae3 .l6, .l9, .l8 {
+  color: #d3d7dc;
+}
+.Hy .k {
+  background-color: #bdd4f9;
+}
+.I5 .fX, .I5 .hl, .I5 .az6 {
+  -moz-box-shadow: inset 0 -1px 0 0 #bdd4f9;
+  box-shadow: inset 0 -1px 0 0 #bdd4f9;
+}
+.gU .btA .dC {
+  border-radius: 10px;
+}
+.gU .btA .v7.T-I, .gU .btA .v7.T-I::before {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 0;
+}
+.gU .btA .hG, .gU .btA .hG::before {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 8px;
+}
+.gU .v7.T-I:not(.btz) {
+  background-color: #206be3;
+}
+.gU .hG:not(.v6) {
+  background-color: #0b57d0;
+}
+.hG.T-I-atl, .hG.T-I-atl.T-I-JW, .hG.T-I-atl:focus {
+    border-left: 1px solid #91b8f6;
+}
+.WR .z0 > .L3 {
+  border-radius: 5px;
+  height: 36px;
+  color: #37421e;
+  background-color: #f4f2a5;
+}
+.WR .z0 > .L3:hover {
+  background-color: #fff;
+}
+.zA {
+  -moz-box-shadow: inset 0 -1px 0 0 #c5ced6;
+  box-shadow: inset 0 -1px 0 0 #c5ced6;
+}
+.yO {
+  background: #d3d9e0;
+  color: #202124;
+}
+.yO:hover {
+  background: #c5ced6;
+}
+.x7 {
+  background: #fbf5c6;
+}
+.yJ {
+  margin-bottom: 10px;
+}
+.H2.HD {
+  background-color: rgba(129, 161, 189, .7);
+  border: 1px solid transparent;
+  color: #b3d8df;
+  border-radius:5px;
+}
+.H2.HD:hover {
+  border: 1px solid transparent;
+  background-color: #9ebedb;
+  opacity: 1;
+  color: #2c5075;
+}
+.H2:not(.bws):focus {
+    border: 1px solid transparent;
+}
+.Ol.Nk {
+  color:#d3d7dc;
+  border: 1px solid #7b89a4;
+}
+.Ol.Nk:hover {
+  background-color: #7b89a4;
+}
+.aiC {
+  background-color: #6d7d99;
+  height: 8px;
+}
+.aiA {
+  background-color: #adbad2;
+}
+table.cf.gJ {
+  margin-bottom: 15px;
+}
+.hx .ky .Bk .G2, .hx .kv .Bk .G2, .hx .h7 .Bk .G2, .hx .bx .Bk .G2 {
+  border-color: #dfdfdf;
+}
+.amr .amn > .ams {
+  background-color: #dfdfdf;
+  color: #222;
+  border-radius: 6px;
+  border:none;
+  text-shadow:none;
+}
+.amr .amn > .ams:hover {
+  -moz-box-shadow: 1px 1px 2px 0 rgba(195, 225, 251, .3);
+  box-shadow: 1px 1px 2px 0 rgba(195, 225, 251, .3);
+  background:#c3e1fb;
+}
+.Xr .V3, .aam {
+  overflow-y:hidden;
+  border-top: 1px solid transparent;
+}
+.Xr .V3, .aam:hover {
+  overflow-y:auto;
+  scrollbar-width: thin;
+  scrollbar-color: #7b89a3 hsl(218, 24%, 36%);
+  border-top: 1px solid transparent;
+}
+.aic {
+    margin-bottom: 3px;
+}
+.TD {
+  background: rgb(123, 137, 163);
+  color: #fff;
+}
+
+/** fix css box layouts fails at forward message **/
+.HM .aDg > .aDj.ahe {
+  margin-bottom: 42px !important;
+}
+
+/** replace icons **/
+.aiz {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/launch_white_18dp.png');
+  opacity: 0.7;
+}
+.xY>.T-Jo {
+ background-image:url('//ssl.gstatic.com/images/icons/material/system_gm/1x/check_box_outline_blank_black_20dp.png');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:20px
+}
+.xY>.T-Jo-ayH {
+ background-image:url('//ssl.gstatic.com/images/icons/material/system_gm/1x/indeterminate_check_box_black_20dp.png');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:20px
+}
+.xY>.T-Jo-Jp {
+ background-image:url('//ssl.gstatic.com/images/icons/material/system_gm/1x/check_box_black_20dp.png');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:20px
+}
+.xL {
+ background-image:url('//ssl.gstatic.com/images/icons/material/system_gm/1x/today_black_20dp.png');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:20px
+}
+.yE {
+ background-image:url('//ssl.gstatic.com/images/icons/material/system_gm/1x/attachment_black_20dp.png');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:20px
+}
+.btC .og.T-I-J3, .btC .J-N-JX.og.T-I-J3 {
+    background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/delete_black_20dp.png');
+}
+.SB {
+    background-image: url('https://fonts.gstatic.com/s/i/googlematerialicons/branding_watermark/v13/gm_grey-20dp/1x/gm_branding_watermark_gm_grey_20dp.png');
+}
+.bzn .G-tF .T-Jo {
+  background-image:url('//ssl.gstatic.com/images/icons/material/system_gm/1x/check_box_outline_blank_white_20dp.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:20px;
+  opacity:0.6;
+}
+.bzn .G-tF .T-Jo-Jp {
+  background-image:url('//ssl.gstatic.com/images/icons/material/system_gm/1x/check_box_white_20dp.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:20px;
+  opacity:0.6;
+}
+.bzn .G-asx, .d-Na-J3.d-Na-JX-ax3.d-Na-hFsbo {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system/1x/arrow_drop_down_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .asf {
+    background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/refresh_white_20dp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    opacity: 0.6;
+}
+.bzn .bjy {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/more_vert_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .ar8 {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/archive_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .asl {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/report_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .ar9 {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/delete_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .bAP {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/mail_outline_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .bAO {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/drafts_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .brW {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/schedule_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .Vj {
+  background-image: url('//ssl.gstatic.com/ui/v1/icons/mail/rfr/task_add_filled_20_white_1x.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .ase {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/drive_file_move_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.bzn .asb {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/label_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.aqJ .amJ, .adg .adk {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/chevron_right_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
+.aqJ .amI, .adg .adj {
+    background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/chevron_left_white_20dp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    opacity: 0.6;
+}
+.aBS .d-Na-JX-I .d-Na-J3.ita-icon-0 {
+  background-image: url('//ssl.gstatic.com/inputtools/images/ita_sprite_grey8.png');
+}
+.bzn .ar6 {
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/arrow_back_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
+}
