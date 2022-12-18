@@ -83,26 +83,29 @@ body, input, textarea, select, .ar, .yW, .zA > .a4W, .TO .nU > .n0, .TO.NQ .nU >
   margin-bottom: 10px;
 }
 .H2.HD {
-  background-color: rgba(129, 161, 189, .7);
+  background-color: rgba(255, 255, 255, .65);
   border: 1px solid transparent;
-  color: #b3d8df;
+  color: #37421e;
   border-radius:5px;
 }
 .H2.HD:hover {
   border: 1px solid transparent;
-  background-color: #9ebedb;
+  background-color: #f4f2a5;
   opacity: 1;
-  color: #2c5075;
+  color: #37421e;
 }
 .H2:not(.bws):focus {
     border: 1px solid transparent;
 }
 .Ol.Nk {
-  color:#d3d7dc;
-  border: 1px solid #7b89a4;
+  color:#eae6e6;
+  border: 1px solid transparent;
+  background-color: rgba(35, 136, 240, .9);
 }
 .Ol.Nk:hover {
-  background-color: #7b89a4;
+  background-color: #f4f2a5;
+  border: 1px solid transparent;
+  color: #37421e;
 }
 .aiC {
   background-color: #6d7d99;
@@ -136,15 +139,31 @@ table.cf.gJ {
 .Xr .V3, .aam:hover {
   overflow-y:auto;
   scrollbar-width: thin;
-  scrollbar-color: #7b89a3 hsl(218, 24%, 36%);
+  /*scrollbar-color: #7b89a3 hsl(218, 24%, 36%);*/
+  scrollbar-color: rgba(210, 222, 236, .5) hsla(218, 9%, 29%, .6);
   border-top: 1px solid transparent;
 }
 .aic {
     margin-bottom: 3px;
 }
 .TD {
-  background: rgb(123, 137, 163);
+  background: rgba(162, 176, 202, .6);
   color: #fff;
+}
+.x0 {
+  color: #a1dcff;
+}
+.x0:hover {
+  background-color: #f4f2a5;
+  color: #2a3442;
+  text-decoration: none;
+}
+.aeJ {
+  overflow-y: auto;
+}
+.Tm .ya {
+  background-color: rgba(251, 220, 146, .85);
+  color: #3a3f46;
 }
 
 /** fix css box layouts fails at forward message **/
@@ -327,4 +346,20 @@ td.oZ-x3::before {
   background-repeat: no-repeat;
   background-size: 20px;
   opacity: 0.6;
+}
+.bc2 {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: no-repeat url('//ssl.gstatic.com/mail/sprites/general_white-f28daaca503bfa89c1543b45cce58ef6.png') 0 -400px;
+  background-size: 24px 642px;
+  opacity: 0.65;
+  margin-right: 4px;
+  vertical-align: top;
+}
+.bAD {
+    background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/label_off_white_20dp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
 }
