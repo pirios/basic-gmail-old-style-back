@@ -358,8 +358,9 @@ td.oZ-x3::before {
   vertical-align: top;
 }
 .bAD {
-    background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/label_off_white_20dp.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px;
+  background-image: url('//ssl.gstatic.com/images/icons/material/system_gm/1x/label_off_white_20dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  opacity: 0.6;
 }
