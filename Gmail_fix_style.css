@@ -139,12 +139,11 @@ table.cf.gJ {
 .Xr .V3, .aam:hover {
   overflow-y:auto;
   scrollbar-width: thin;
-  /*scrollbar-color: #7b89a3 hsl(218, 24%, 36%);*/
   scrollbar-color: rgba(210, 222, 236, .5) hsla(218, 9%, 29%, .6);
   border-top: 1px solid transparent;
 }
 .aic {
-    margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 .TD {
   background: rgba(162, 176, 202, .6);
@@ -162,8 +161,8 @@ table.cf.gJ {
   overflow-y: auto;
 }
 .Tm .ya {
-  background-color: rgba(251, 220, 146, .85);
-  color: #3a3f46;
+  background-color:rgba(244, 239, 153, .871);
+  color:#313334;
 }
 
 /** fix css box layouts fails at forward message **/
