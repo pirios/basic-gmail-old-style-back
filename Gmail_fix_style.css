@@ -22,11 +22,11 @@ body, input, textarea, select, .ar, .yW, .zA > .a4W, .TO .nU > .n0, .TO.NQ .nU >
   background-color: transparent;
   border-radius:0;
 }
-.Dj, .aiD, .md.mj, .aeU .ma, .ma .mb, .ae3 .l6, .l9, .l8, .amH > .Dj, .h0 > .adl, .Bn {
+.Dj, .aiD, .md.mj, .aeU .ma, .ma .mb, .ae3 .l6, .l9, .l8, .amH > .Dj, .h0 > .adl, .Bn, .dt, .Wz {
   color: #d3d7dc;
 }
 .Hy .k {
-  background-color: #bdd4f9;
+  background-color: #83f4f2; /* #bdd4f9 */
 }
 .I5 .fX, .I5 .hl, .I5 .az6 {
   -moz-box-shadow: inset 0 -1px 0 0 #d8e5f9;
@@ -139,11 +139,12 @@ table.cf.gJ {
 .Xr .V3, .aam:hover {
   overflow-y:auto;
   scrollbar-width: thin;
+  /*scrollbar-color: #7b89a3 hsl(218, 24%, 36%);*/
   scrollbar-color: rgba(210, 222, 236, .5) hsla(218, 9%, 29%, .6);
   border-top: 1px solid transparent;
 }
 .aic {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
 }
 .TD {
   background: rgba(162, 176, 202, .6);
@@ -161,13 +162,29 @@ table.cf.gJ {
   overflow-y: auto;
 }
 .Tm .ya {
-  background-color:rgba(244, 239, 153, .871);
+  /*background-color:rgba(244, 239, 153, .871);*/
+  background-color:rgba(134, 243, 207, .9);
   color:#313334;
+}
+form.bas {
+  border-radius: 8px;
+}
+.Wy {
+  color: #64e8cf;
 }
 
 /** fix css box layouts fails at forward message **/
 .HM .aDg > .aDj.ahe {
   margin-bottom: 42px !important;
+}
+
+/** fix SVG icons **/
+.kQ9Vzb, .asa .kQ9Vzb, .SI .kQ9Vzb {
+  color: #fff;
+  opacity: 0.6;
+}
+.kQ9Vzb:hover, .asa .kQ9Vzb:hover, .SI .kQ9Vzb:hover {
+  opacity: 1;
 }
 
 /** replace icons **/
@@ -225,7 +242,7 @@ table.cf.gJ {
   background-size:20px;
   opacity:0.6;
 }
-.bzn .G-asx, .d-Na-J3.d-Na-JX-ax3.d-Na-hFsbo {
+.bzn .G-asx, .d-Na-J3.d-Na-JX-ax3.d-Na-hFsbo, .G-asx {
   background-image: url('//ssl.gstatic.com/images/icons/material/system/1x/arrow_drop_down_white_20dp.png');
   background-position: center;
   background-repeat: no-repeat;
